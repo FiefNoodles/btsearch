@@ -189,7 +189,7 @@ const host2 = {
 
 const fetchTorrentFromHost1 = async (query) => {
   const { hostUrl, apiKey } = host1;
-  const url = `${hostUrl}/api/v2.0/indexers/all/results?apikey=${apiKey}&Query=${query}&Category%5B%5D=2000&Category%5B%5D=5000&Category%5B%5D=8000&Tracker[]=1337x&Tracker[]=bitru&Tracker[]=bitsearch&Tracker[]=concen&Tracker[]=eztv&Tracker[]=kickasstorrents-to&Tracker[]=knaben&Tracker[]=megapeer&Tracker[]=solidtorrents&Tracker[]=thepiratebay&Tracker[]=torlock&Tracker[]=torrentdownloads&Tracker[]=torrentfunk&Tracker[]=torrentproject2&Tracker[]=torrentz2nz&Tracker[]=uniondht&Tracker[]=yourbittorrent
+  const url = `${hostUrl}/api/v2.0/indexers/all/results?apikey=${apiKey}&Query=${query}&Category%5B%5D=2000&Category%5B%5D=5000&Category%5B%5D=8000&Tracker[]=1337x&Tracker[]=bitru&Tracker[]=bitsearch&Tracker[]=concen&Tracker[]=eztv&Tracker[]=kickasstorrents-to&Tracker[]=knaben&Tracker[]=megapeer&Tracker[]=thepiratebay&Tracker[]=torlock&Tracker[]=torrentdownloads&Tracker[]=torrentfunk&Tracker[]=torrentproject2&Tracker[]=torrentz2nz&Tracker[]=uniondht&Tracker[]=yourbittorrent
 `;
 
   try {
