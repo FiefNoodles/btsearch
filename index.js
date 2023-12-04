@@ -178,13 +178,13 @@ let stream_results = [];
 let torrent_results = [];
 
 const host1 = {
-  hostUrl: "http://206.189.27.179:9117",
-  apiKey: "8pngmdxpel62ejnekdf3h1rpq4pcm7t6",
+  hostUrl: "http://73.245.198.70:9117",
+  apiKey: "o7b2j1k1kcjpts21xbh2dl855ehh9luk",
 };
 
 const host2 = {
-  hostUrl: "http://94.61.74.253:9117",
-  apiKey: "e71yh2n0fopfnyk2j2ywzjfa3sz4xv8d",
+  hostUrl: "74.109.186.9:9117",
+  apiKey: "ldaj1wd2ahzxf6h0vxizomx9t82l8125",
 };
 
 const fetchTorrentFromHost1 = async (query) => {
@@ -198,7 +198,7 @@ const fetchTorrentFromHost1 = async (query) => {
         "accept-language": "en-US,en;q=0.9",
         "x-requested-with": "XMLHttpRequest",
         cookie:
-          "Jackett=CfDJ8AG_XUDhxS5AsRKz0FldsDJIHUJANrfynyi54VzmYuhr5Ha5Uaww2hSQytMR8fFWjPvDH2lKCzaQhRYI9RuK613PZxJWz2tgHqg1wUAcPTMfi8b_8rm1Igw1-sZB_MnimHHK7ZSP7HfkWicMDaJ4bFGZwUf0xJOwcgjrwcUcFzzsVSTALt97-ibhc7PUn97v5AICX2_jsd6khO8TZosaPFt0cXNgNofimAkr5l6yMUjShg7R3TpVtJ1KxD8_0_OyBjR1mwtcxofJam2aZeFqVRxluD5hnzdyxOWrMRLSGzMPMKiaPXNCsxWy_yQhZhE66U_bVFadrsEeQqqaWb3LIFA",
+          "Jackett=CfDJ8LhovoamDWtMsRuh-l2sRMW_tK0A2SurooEbw1JzZ2n7E-xb5BoMlTXDZeH-cjM6TMERLUwVzQXEzyunQ94JuHgrCjV4TFuCD3qIec7a6Zq0gZtMftozAA8wkAj7oUM0J1xj1bvaUjU2YnkWtN3aIeT5OZl5mPrDnppbB09EaaBvia7oRyVggl2ATC3J7yl2wS6Q_RrBnukJ0aR1HK83EV56aYYr5y-ongjm1WJ6ZExaNPoidTgV8Gc8YhwqqkLkxLJFvzHQkpU3pEar-LlulgGIMapi6XZcKIFYDP7e6LUuKNMNR-_v94-67Xwf2gMD2kBRuoYJ1jEWojk_juJY-ds",
       },
       referrerPolicy: "no-referrer",
       method: "GET",
@@ -243,7 +243,7 @@ const fetchTorrentFromHost2 = async (query) => {
         "accept-language": "en-US,en;q=0.9",
         "x-requested-with": "XMLHttpRequest",
         cookie:
-          "Jackett=CfDJ8AG_XUDhxS5AsRKz0FldsDJIHUJANrfynyi54VzmYuhr5Ha5Uaww2hSQytMR8fFWjPvDH2lKCzaQhRYI9RuK613PZxJWz2tgHqg1wUAcPTMfi8b_8rm1Igw1-sZB_MnimHHK7ZSP7HfkWicMDaJ4bFGZwUf0xJOwcgjrwcUcFzzsVSTALt97-ibhc7PUn97v5AICX2_jsd6khO8TZosaPFt0cXNgNofimAkr5l6yMUjShg7R3TpVtJ1KxD8_0_OyBjR1mwtcxofJam2aZeFqVRxluD5hnzdyxOWrMRLSGzMPMKiaPXNCsxWy_yQhZhE66U_bVFadrsEeQqqaWb3LIFA",
+          "Jackett=CfDJ8IIQ3Pw-e4pPhfcF99xcZ07bfAmoiwpEsUdW7H071j30OffMH4B3sbZ6zIxVwTZ3-TA3plN8TCkQOaEgY9s9JQXVW9awUJ8kBCu2u-UzPRPftRqvE5F0qsvS6kNZDg06Ja1wVPXTPts7FjKalgJhMikQMocLwfng-0O0I-tiZu1Ed7C4C14extd-LZNPOQnZeni8UBX3Z0TnIT1fPNGC-lZ91Auj5fnJkG1KzRMoTo3V_zsR2v_sF8oUfW6Ay5kif8kednA4MBbft9t_npwHdb6gdDmbkCNYoAVLHgnsTTHOndP0IODwo9UzgO6eEPbuVh3VMN4WIYoMPlaE26e8PFE",
       },
       referrerPolicy: "no-referrer",
       method: "GET",
